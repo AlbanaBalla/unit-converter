@@ -16,5 +16,4 @@ convertbtn.addEventListener("click", function() {
     volumeEl.textContent = `${ values } liter = ${values * literGallon} gallons | ${values} gallons = ${(values / literGallon).toFixed(2)} liter`
     
     massEl.textContent = `${ values } kilograms = ${values * literGallon} pounds | ${values} pounds = ${(values / literGallon).toFixed(2)} kilograms`
-    // lengthEl.textContent = `${values} feet = ${values / meterFeet} meter`
 })

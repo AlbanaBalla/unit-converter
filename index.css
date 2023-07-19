@@ -12,6 +12,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-family: 'Inter', sans-serif;
 }
 
 #unit {
@@ -36,6 +37,50 @@ body {
     border-radius: 6px;
 }
 
-.measure {
-    color: #B295FF;
+.length{
+    margin-top: 30px;
+    margin-left:auto;
+    margin-right: auto; 
+    color: #CCC1FF;
+    width: 500px;
+    height: 100px;
+    background: #273549;
+    border: none;
+    border-radius: 5px;  
+}
+
+#length-el {
+    color: white;
+}
+
+.volume{
+    margin-top: 30px;
+    margin-left:auto;
+    margin-right: auto; 
+    color: #CCC1FF;
+    width: 500px;
+    height: 100px;
+    background: #273549;
+    border: none;
+    border-radius: 5px;  
+}
+
+#volume-el {
+    color: white;
+}
+
+.mass{
+    margin-top: 30px;
+    margin-left:auto;
+    margin-right: auto; 
+    color: #CCC1FF;
+    width: 500px;
+    height: 100px;
+    background: #273549;
+    border: none;
+    border-radius: 5px;  
+}
+
+#mass-el {
+    color: white;
 }
